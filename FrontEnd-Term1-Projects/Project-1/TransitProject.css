@@ -8,16 +8,19 @@
 }
 .Transit {
     float: left;
+    padding: 10px;
 }
 
 .menuBar ul {
     list-style-type: none;
     float: right;
+    padding: 10px;
 }
 .menuBar li {
     color: rgba(255, 255, 255, 0.5);
     display: inline;
     padding: 10px 15px;
+    font-size: 20px;
 }
 .menuBar li:hover {
  color: white;
@@ -84,11 +87,84 @@ header {
     color: #858585;
 }
 .mid-Main {
-    padding-top: 200px;
+    padding-top: 30px;
+}
+.color-blue {
+    padding: 40px 50px;
+    background-color: rgb(99, 154, 218);
+    border: none;
+    border-radius: 100%;
+    
+}
+.color-green {
+    padding: 40px 50px;
+    background-color: rgb(78, 232, 12);
+    border: none;
+    border-radius: 100%;
+}
+.color-red {
+    padding: 40px 50px;
+    background-color: rgb(240, 47, 47);
+    border: none;
+    border-radius: 100%;
 }
 .box-1 {
-    width: 200px;
-    height: 400px;
-    border: 1px solid darkgrey;
-    padding: 70px 30px;
+    width: 150px;
+    height: 375px;
+    border: 1px solid rgba(144, 144, 144, 0.25);
+    padding: 60px 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+    background-color: white;
 }
+.box-2 {
+    width: 150px;
+    height: 375px;
+    border: 1px solid rgba(144, 144, 144, 0.25);
+    padding: 60px 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px; 
+    background-color: white;
+}
+.box-3 {
+    width: 150px;
+    height: 375px;
+    border: 1px solid rgba(144, 144, 144, 0.25);
+    padding: 60px 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+    background-color: white;
+}
+.box-1 h4 {
+    color: #474747;
+    font-size: 20px; 
+    padding:50px 0px 25px 0px;
+}
+.box-2 h4 {
+    color: #474747;
+    font-size: 20px; 
+    padding:50px 0px 25px 0px;
+}
+
+.box-3 h4 {
+    color: #474747;
+    font-size: 20px; 
+    padding:50px 0px 25px 0px;
+}
+.box-1 p {
+    color:#474747;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box-2 p {
+    color:#474747;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box-3 p {
+    color:#474747;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
