@@ -1,170 +1,234 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
 .Transit a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 .Transit {
-    float: left;
-    padding: 10px;
+  float: left;
+  padding: 10px;
 }
 
 .menuBar ul {
-    list-style-type: none;
-    float: right;
-    padding: 10px;
+  list-style-type: none;
+  float: right;
+  padding: 10px;
 }
 .menuBar li {
-    color: rgba(255, 255, 255, 0.5);
-    display: inline;
-    padding: 10px 15px;
-    font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline;
+  padding: 10px 15px;
+  font-size: 20px;
 }
 .menuBar li:hover {
- color: white;
- cursor: pointer;
+  color: white;
+  cursor: pointer;
 }
 .btn {
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 30px;
-    border: none;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    cursor: pointer;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  cursor: pointer;
 }
 .H-main {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    padding: 150px 0;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 150px 0;
 }
 .H-main h2 {
-    color: white;
-    font-size: 60px;
-    line-height: 110px;
+  color: white;
+  font-size: 60px;
+  line-height: 110px;
 }
 .H-main p {
-    color: white;
-    font-size: 25px;
-    line-height:2;
-    padding-bottom: 15px;
+  color: white;
+  font-size: 25px;
+  line-height: 2;
+  padding-bottom: 15px;
 }
 .H-main button {
-    color: white;
-    background-color: cornflowerblue;
-    border: none;
-    font-size:20px;
-    padding: 15px 12px;
-    border-radius:25px;
-    cursor: pointer;
+  color: white;
+  background-color: cornflowerblue;
+  border: none;
+  font-size: 20px;
+  padding: 15px 12px;
+  border-radius: 25px;
+  cursor: pointer;
 }
-.H-main button:hover{
-    opacity: 0.9;
+.H-main button:hover {
+  opacity: 0.9;
+  background-color: greenyellow;
+  color: black;
 }
 header {
-    background-image: url(../image/dark_tint.png),url(../image/bokeh_car_lights_bg.jpg);
-    background-size: cover;
-    background-position: center center;
+  background-image: url(../image/dark_tint.png),
+    url(../image/bokeh_car_lights_bg.jpg);
+  background-size: cover;
+  background-position: center center;
 }
 
 .M-header {
-    font-family: 'Times New Roman', Times, serif;
-    padding: 100px;
-    background-color: #f5f5f5;
-    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
-    border-top: 1px solid rgba(144, 144, 144, 0.25);
-    text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding: 100px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+  border-top: 1px solid rgba(144, 144, 144, 0.25);
+  text-align: center;
 }
 .top-Main h2 {
-    font-size: 42px;
-    color: #474747;
-    padding-bottom: 15px;
+  font-size: 42px;
+  color: #474747;
+  padding-bottom: 15px;
 }
 .top-Main p {
-    font-size: 20px;
-    color: #858585;
+  font-size: 20px;
+  color: #858585;
 }
 .mid-Main {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 .color-blue {
-    padding: 40px 50px;
-    background-color: rgb(99, 154, 218);
-    border: none;
-    border-radius: 100%;
-    
+  padding: 40px 50px;
+  background-color: rgb(99, 154, 218);
+  border: none;
+  border-radius: 100%;
 }
 .color-green {
-    padding: 40px 50px;
-    background-color: rgb(78, 232, 12);
-    border: none;
-    border-radius: 100%;
+  padding: 40px 50px;
+  background-color: rgb(78, 232, 12);
+  border: none;
+  border-radius: 100%;
 }
 .color-red {
-    padding: 40px 50px;
-    background-color: rgb(240, 47, 47);
-    border: none;
-    border-radius: 100%;
+  padding: 40px 50px;
+  background-color: rgb(240, 47, 47);
+  border: none;
+  border-radius: 100%;
 }
 .box-1 {
-    width: 150px;
-    height: 375px;
-    border: 1px solid rgba(144, 144, 144, 0.25);
-    padding: 60px 30px;
-    text-align: center;
-    display: inline-block;
-    margin: 0 10px;
-    background-color: white;
+  width: 150px;
+  height: 375px;
+  border: 1px solid rgba(144, 144, 144, 0.25);
+  padding: 60px 30px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 10px;
+  background-color: white;
 }
 .box-2 {
-    width: 150px;
-    height: 375px;
-    border: 1px solid rgba(144, 144, 144, 0.25);
-    padding: 60px 30px;
-    text-align: center;
-    display: inline-block;
-    margin: 0 10px; 
-    background-color: white;
+  width: 150px;
+  height: 375px;
+  border: 1px solid rgba(144, 144, 144, 0.25);
+  padding: 60px 30px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 10px;
+  background-color: white;
 }
 .box-3 {
-    width: 150px;
-    height: 375px;
-    border: 1px solid rgba(144, 144, 144, 0.25);
-    padding: 60px 30px;
-    text-align: center;
-    display: inline-block;
-    margin: 0 10px;
-    background-color: white;
+  width: 150px;
+  height: 375px;
+  border: 1px solid rgba(144, 144, 144, 0.25);
+  padding: 60px 30px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 10px;
+  background-color: white;
 }
 .box-1 h4 {
-    color: #474747;
-    font-size: 20px; 
-    padding:50px 0px 25px 0px;
+  color: #474747;
+  font-size: 20px;
+  padding: 50px 0px 25px 0px;
 }
 .box-2 h4 {
-    color: #474747;
-    font-size: 20px; 
-    padding:50px 0px 25px 0px;
+  color: #474747;
+  font-size: 20px;
+  padding: 50px 0px 25px 0px;
 }
 
 .box-3 h4 {
-    color: #474747;
-    font-size: 20px; 
-    padding:50px 0px 25px 0px;
+  color: #474747;
+  font-size: 20px;
+  padding: 50px 0px 25px 0px;
 }
 .box-1 p {
-    color:#474747;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #474747;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .box-2 p {
-    color:#474747;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #474747;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .box-3 p {
-    color:#474747;
+  color: #474747;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-p h2 {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 45px;
+  color: #403f3f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-p p {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 22px;
+  color: #858585;
+  padding-bottom: 5px;
+}
+.user-p {
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+    border-top: 1px solid rgba(144, 144, 144, 0.25);
+    margin: 60px auto;
+    width: 90%;
+    padding: 60px 0;
+}
+
+.user {
+  display: inline-block;
+  text-align: center;
+}
+.user img {
+  border-radius: 50%;
+  float: left;
+}
+.user h4 {
+    padding-left: 100px;
+    padding-top:30px ;
+    text-align: center;
+    font-family: Times, serif;
+    color: #161515;
+}
+.user p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.M-footer {
+    text-align: center;
+}
+.M-footer p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.btn-main {
+    background-color:  #3cadd4;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    font-size: 20px;
+    padding:18px 30px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.btn-main:hover {
+ opacity: 0.9;
+ background-color: greenyellow;
+ color: black;
+}
 
