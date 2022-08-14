@@ -319,3 +319,8 @@ textarea:focus {
     color: #fff;
 }
 
+@media (min-width: 300px) {
+  header,main,footer {
+   width: 100%;
+  }
+}
