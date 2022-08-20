@@ -1,0 +1,266 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+body {
+  background-color: rgb(250, 248, 248);
+}
+a {
+  text-decoration: none;
+}
+.container {
+  text-align: center;
+  margin: 0;
+}
+
+.phone-image{
+  width: 395px;
+  height: 630px;
+  background-image: url(../images/Phone-pic.png);
+  padding: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  position: relative;
+  top: 90px;
+}
+.sideOfLogin {
+  /* border: 2px solid red; */
+  display: inline-block;
+}
+.slider {
+  width: 248px;
+  height: 534px;
+  position: relative;
+  left: 121px;
+  top: 28.5px;
+  background: url(../images/f-pic.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  animation: slide 15s normal infinite;
+}
+
+@keyframes slide {
+  33.33% {
+    background: url(../images/s-pic.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  66.66% {
+    background: url(../images/t-pic.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  99.99% {
+    background: url(../images/fo-pic.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+}
+
+.H-login-box {
+  width: 350px;
+  height: 395px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid rgba(144, 144, 144, 0.25);
+  background-color: #ffffff;
+  margin:0px 0px 0px 25px;
+  position: relative;
+  bottom: 82px; 
+}
+.L-main {
+  text-align: center;
+}
+.L-header img {
+  width:175px;
+  height: 60px;
+  padding: 30px 20px;
+  cursor: pointer;
+}
+input[type="text"],
+input[type="password"]{
+  width: 78%;
+  display: block;
+  padding: 11px 8px 11px 5px;
+  margin-left: 30px;
+  border: 1px groove rgba(144, 144, 144, 0.25);
+  border-radius: 5px;
+  margin-top: 5px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: rgb(245, 233, 217);
+}
+
+.btn {
+  width: 83%;
+  border: none;
+  margin-top: 20px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  background-color: #b2dffc;
+  border: 1px groove rgba(144, 144, 144, 0.25);
+  font-size: 12px;
+}
+.btn:hover {
+  color: #ffffff;
+  background-color: #3cadd4;
+}
+.border-1 {
+  background-color: rgba(95, 93, 93, 0.25);
+  display: inline-block;
+  height: 1px;
+  width: 34%;
+}
+.Or {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 0 8px;
+  position: relative;
+  top: 4px;
+  color: grey;
+  font: bold;
+  font-size: 13px;
+}
+.border-2 {
+  background-color: rgba(95, 93, 93, 0.25);
+  display: inline-block;
+  height: 1px;
+  width: 34%;
+}
+.log-Facebook {
+  margin-top: 0px;
+}
+.log-Facebook img {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+.l {
+  position: relative;
+  bottom: 2px;
+  color: #385185;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  font: bolder;
+}
+.F-psw {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #00376b;
+}
+.F-psw a:hover {
+  color: red;
+}
+
+.M-login-box {
+    text-align: center;
+    border: 1px solid  rgba(144, 144, 144, 0.25);
+    position: relative;
+    top: 55px;
+    background-color: #ffffff;
+    font-size: 14px;
+    padding: 9px 0;
+}
+.M-login-box a {
+    color: #0095f6; 
+    font-weight: 600;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+}
+.getApp {
+    position: relative;
+    top: 60px;
+}
+.getApp p {
+  font-size: 14px;
+}
+.Download-App {
+    position: absolute;
+    display: inline-block;
+    top: 600px;
+    
+}
+.App-S {
+    width: 145px;
+    height: 46px;
+    display: inline-block;
+    position: relative;
+    right: 165px;
+    bottom: 71px;
+}
+.Gg-p {
+    display: inline-block;
+    width: 146px;
+    height: 46px;
+    display: inline-block;
+    position: relative;
+    bottom: 120.75px;
+}
+.footer {
+    text-align: center;
+    margin-top: 150px;
+}
+.h-footer ul {
+    list-style-type: none;
+    margin: 0;
+}
+.h-footer ul li {
+    display: inline;
+    padding: 0px 12px 0 0;
+}
+.m-footer ul {
+  list-style-type: none;
+  margin: 0 0 12px 0;
+}
+.m-footer ul li {
+  display: inline;
+  padding: 0 12px 0 0;
+}
+.h-footer a {
+  color: rgb(126, 123, 123);
+  font-weight: 400;
+  font-size: 12px;
+}
+.h-footer a:hover {
+  color: black;
+}
+.m-footer a {
+  color:rgb(126, 123, 123);
+  font-weight: 400;
+  font-size: 12px;
+}
+.m-footer a:hover {
+  color:#0478c5;
+}
+.select-lan {
+ display: inline-block;
+ border: none;
+ color:rgb(126, 123, 123);
+ background-color:  rgb(250, 248, 248);
+ width: 65px;
+ height: 25px;
+ font-weight: 400;
+ margin-bottom: 50px;
+ font-size: 12px;
+ cursor: pointer;
+ margin-right: 10px;
+}
+.select-lan option {
+  color: black;
+}
+.sorce {
+  display: inline-block;
+  color:rgb(126, 123, 123);
+  font-size: 12px;
+  font-weight: 400;
+  font:bolder;
+}
