@@ -1,77 +1,255 @@
+@import url(../fonts/fontawesome-pro-6.1.1-web/css/all.min.css);
 @import url(../fontawesome-free-6.1.2-web/css/all.min.css);
-@import url(../fontawesome-free-5.15.4-web/css/fontawesome.min.css);
+/* @import url(../fontawesome-free-5.15.4-web/css/fontawesome.min.css); */
+
+@font-face {
+  font-family: "IRANsans-Bold";
+  src: url(../font/IRAN\ Sans\ Bold.ttf);
+}
+@font-face {
+  font-family: "IRANsans-Regular";
+  src: url(../font/IRAN\ Sans\ Regular.ttf);
+}
 
 * {
-    margin: 0;
-    
+  margin: 0;
 }
 body {
-    font-family: IRANSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-    font-size: 1rem;
-    font-weight: 400;
+  font-family: "IRANsans-Regular";
 }
 header {
-    background-attachment: fixed;
-    background-color: #ffff;
-    border-bottom:1px solid rgb(230, 216, 216);
+  background-attachment: fixed;
+  background-color: #ffff;
+  border-bottom: 1px solid rgb(230, 216, 216);
+  width: 100%;
+  text-align: center;
 }
 a {
-    text-decoration: none;
-    color:rgba(0,0,0,.56);
-    /* font-size: 10px; */
-    /* font-size: .75rem; */
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.56);
+  /* font-size: 10px; */
+  /* font-size: .75rem; */
+}
+.Btn-1 {
+  background-color: #a62626;
+  color: #fff;
+  border: 0;
+  padding: 2px 16px;
+  border-radius: 5px;
+  font-family: "IRANsans-Regular";
+  font-size: 17px;
+  line-height: 2;
+  cursor: pointer;
+  font-weight: 250;
+  position: relative;
+  bottom: 8px;
+}
+.Btn-1:hover {
+  opacity: 0.8;
 }
 .nav-bar {
-    text-align: left;
-    display: inline-block;
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  right: 150px;
 }
 .nav-bar ul {
-    list-style-type: none;
-    margin: 10px 0;
+  list-style-type: none;
+  position: relative;
 }
 .nav-bar ul li {
-    display: inline;
-    padding-right: 32px;
-    float: left;
-    /* color: rgba(0,0,0,.56); */
+  display: inline;
+  padding-right: 10px;
+  float: left;
+  color: rgba(0, 0, 0, 0.56) !important;
+  font-weight: 500;
 }
 .nav-bar ul::before,
 .nav-bar ul::after {
-    content: " ";
-    display: block;
-    clear: both;
+  content: " ";
+  display: block;
+  clear: both;
+}
+.nav-bar #a-1 {
+  transition: color 0.36s ease, background-color 0.36s ease;
+  border-radius: 5px;
+  padding: 8px 20px;
+  font-family: "IRANsans-Bold";
+}
+.nav-bar #a-1:hover {
+  color: black;
+  background-color: #f6f3f3;
+  border: 0;
+}
+.chat {
+  text-align: center;
+  padding: 8px 20px;
+  position: relative;
+  bottom: 7.5px;
+  border-radius: 5px;
+  color: #948f8f !important;
+  font-family: "IRANsans-Bold";
+}
+.chat:hover {
+  color: black !important;
+  background-color: #f6f3f3;
+  border: 0;
+}
+.chat a {
+  transition: color 0.36s ease, background-color 0.36s ease;
+  position: relative;
+  right: 2px;
+}
+.chat a:hover {
+  color: black !important;
+  background-color: #f6f3f3;
+  border: 0;
+}
+.chat i {
+  cursor: pointer;
+  position: relative;
+  left: 2px;
+}
+.fa-comment {
+  position: relative;
+  top: 2px;
+}
+.Btn-2 {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.56);
+  border: 0;
+  padding: 4px 16px;
+  border-radius: 5px;
+  font-family: "IRANsans-Bold";
+  font-size: 16px;
+  line-height: 2;
+  cursor: pointer;
+  font-weight: 250;
+  position: relative;
+  bottom: 7px;
+  left: 10px;
+}
+.Btn-2 {
+  transition: color 0.36s ease, background-color 0.36s ease;
+}
+.Btn-2:hover {
+  color: black;
+  background-color: #f6f3f3;
+  border: 0;
+}
+
+.fa-user {
+  color: black;
+  position: relative;
+  top: 2px;
+  left: 3px;
 }
 .search {
-    display: inline-block;
-    margin-left: 5px;
-    position: relative;
-    bottom: 15px;
-    
+  display: inline-block;
+  position: relative;
+  bottom: 16px;
+  left: 85px;
 }
-.search input {
-    padding: 10px 30px 10px 5px;
-    text-align: right;
-    border-radius: 5px;
-    background-color: #f6f3f3;
-    margin-top: 25px;
+.search input[type="search"] {
+  padding: 8px 30px 8px 325px;
+  text-align: right;
+  border-radius: 5px;
+  background-color: #f6f3f3;
+  border: 0;
+  font-family: "IRANsans-Regular";
+  color: rgb(100, 98, 98);
+  font-size: 18px;
 }
 .icon-search {
-    display: inline-block;
-    position: relative;
-    bottom: 12px;
-    right: 28px;
+  display: inline-block;
+  position: relative;
+  bottom: 14px;
+  left: 58px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.nav-select {
+  display: inline-block;
+  position: relative;
+  bottom: 17px;
+  left: 75px;
 }
 
+.nav-select select {
+  width: 100px;
+  transition: color 0.36s ease, background-color 0.36s ease;
+  padding: 7px 5px 7px 0px;
+  text-align: right;
+  font-family: "IRANsans-Bold";
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #948f8f;
+}
+.nav-select select:hover {
+  color: black;
+  background-color: #f6f3f3;
+  border: 0;
+}
+.nav-select option {
+  font-weight: 400;
+  font-size: 15px;
+  color: #948f8f;
+}
+#b-side {
+  font-size: 17px;
+  font-weight: 500;
+  font: bolder;
+  font-family: "IRANsans-Bold";
+  color: black !important;
+}
+.location {
+  display: inline-block;
+  position: relative;
+  bottom: 17px;
+  margin-left: 25px;
+  transition: color 0.36s ease, background-color 0.36s ease;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  left: 55px;
+  color: #948f8f !important;
+}
+.location:hover {
+  color: black !important;
+  background-color: #f6f3f3;
+  border: 0;
+}
+.t-lo {
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 16px;
+  transition: color 0.36s ease, background-color 0.36s ease;
+  font-family: "IRANsans-Bold";
+}
+.i-lo {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  transition: color 0.36s ease, background-color 0.36s ease;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.icon-divar {
+  width: 48px;
+  height: 30px;
+  display: inline-block;
+  margin-left: 15px;
+  position: relative;
+  top: 18px;
+  left: 45px;
+  border-left: 1px solid rgb(230, 216, 216);
+}
+.icon-divar img {
+  width: 55px;
+  height: 55px;
+  padding-left: 12px;
+  position: relative;
+  bottom: 11px;
+  cursor: pointer;
+}
