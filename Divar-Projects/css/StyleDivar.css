@@ -17,11 +17,12 @@
 body {
   font-family: "IRANsans-Regular";
 }
+
 header {
   background-attachment: fixed;
   background-color: #ffff;
   border-bottom: 1px solid rgb(230, 216, 216);
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
 }
 a {
@@ -253,3 +254,64 @@ a {
   bottom: 11px;
   cursor: pointer;
 }
+.H-footer {
+width: 252px;
+height: 500px;
+position: fixed !important;
+padding-top: 32px;
+top: 64px;
+right: 250px;
+border-bottom: 1px solid #d3cdcd;
+text-align: right;
+direction: rtl;
+}
+footer {
+  display: inline-block;
+  
+}
+li {
+  list-style-type: none;
+}
+.category {
+  text-align: center;
+  font-size: .75rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+.category h2 {
+  position: relative;
+  left: 100px;
+}
+.side-list ul li a {
+  color:#9f9b9b !important;
+  transition: color 0.36s ease;
+  position: relative;
+  left: 38px;
+}
+.side-list ul li a:hover {
+  color: black !important;
+}
+.side-list ul li {
+  padding: 8px 0;
+  font-family: "IRANsans-Regular";
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
