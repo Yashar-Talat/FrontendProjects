@@ -16,23 +16,37 @@
 }
 body {
   font-family: "IRANsans-Regular";
+  margin: 0;
 }
 
-header {
-  background-attachment: fixed;
-  background-color: #ffff;
-  border-bottom: 1px solid rgb(230, 216, 216);
-  /* width: 100%; */
-  text-align: center;
-}
 a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.56);
-  /* font-size: 10px; */
-  /* font-size: .75rem; */
 }
+li {
+  list-style-type: none;
+}
+.container {
+  text-align: center;
+}
+.content {
+  text-align: center;
+  margin: 0 auto;
+  min-width: 992px;
+  max-width: 1440px;
+}
+.Top-nav {
+  border-bottom: 1px solid rgb(234, 228, 228);
+  height: auto;
+  width: 100%;
+  position: fixed;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 12%);
+  background-color: #ffff;
+  z-index: 1060;
+}
+
 .Btn-1 {
-  background-color: #a62626;
+  background-color: #c52121;
   color: #fff;
   border: 0;
   padding: 2px 16px;
@@ -43,28 +57,26 @@ a {
   cursor: pointer;
   font-weight: 250;
   position: relative;
-  bottom: 8px;
+  bottom: 3px;
+  right: 110px;
+  font-weight: 600;
 }
 .Btn-1:hover {
   opacity: 0.8;
 }
 .nav-bar {
-  text-align: left;
   display: inline-block;
-  position: relative;
-  top: 10px;
-  right: 150px;
 }
 .nav-bar ul {
   list-style-type: none;
-  position: relative;
 }
 .nav-bar ul li {
   display: inline;
   padding-right: 10px;
   float: left;
-  color: rgba(0, 0, 0, 0.56) !important;
-  font-weight: 500;
+  color: rgba(89, 83, 83, 0.56) !important;
+
+
 }
 .nav-bar ul::before,
 .nav-bar ul::after {
@@ -72,64 +84,61 @@ a {
   display: block;
   clear: both;
 }
+
 .nav-bar #a-1 {
   transition: color 0.36s ease, background-color 0.36s ease;
   border-radius: 5px;
-  padding: 8px 20px;
-  font-family: "IRANsans-Bold";
+  padding: 7.5px 20px;
+  position: relative;
+  top: 4px;
+  right: 100px;
+  color: #948f8f;
+  font-weight: 600;
+  font-family: "IRANsans-Regular";
 }
 .nav-bar #a-1:hover {
   color: black;
   background-color: #f6f3f3;
   border: 0;
 }
-.chat {
+.nav-bar #a-2 {
   text-align: center;
-  padding: 8px 20px;
+  padding: 7.5px 20px;
   position: relative;
-  bottom: 7.5px;
+  top: 4px;
+  right: 100px;
   border-radius: 5px;
   color: #948f8f !important;
-  font-family: "IRANsans-Bold";
-}
-.chat:hover {
-  color: black !important;
-  background-color: #f6f3f3;
-  border: 0;
-}
-.chat a {
+  font-family: "IRANsans-Regular";
+  font-weight: 600;
   transition: color 0.36s ease, background-color 0.36s ease;
-  position: relative;
-  right: 2px;
 }
-.chat a:hover {
+.nav-bar #a-2:hover {
   color: black !important;
   background-color: #f6f3f3;
   border: 0;
 }
-.chat i {
-  cursor: pointer;
-  position: relative;
-  left: 2px;
-}
+
 .fa-comment {
   position: relative;
   top: 2px;
+  left:3px;
 }
 .Btn-2 {
   background-color: #fff;
-  color: rgba(0, 0, 0, 0.56);
+  color: #948f8f;
   border: 0;
   padding: 4px 16px;
   border-radius: 5px;
-  font-family: "IRANsans-Bold";
+  font-family: "IRANsans-Regular";
   font-size: 16px;
   line-height: 2;
   cursor: pointer;
   font-weight: 250;
   position: relative;
-  bottom: 7px;
-  left: 10px;
+  bottom: 4px;
+  right:100px;
+  font-weight: 600;
 }
 .Btn-2 {
   transition: color 0.36s ease, background-color 0.36s ease;
@@ -141,46 +150,52 @@ a {
 }
 
 .fa-user {
-  color: black;
   position: relative;
   top: 2px;
   left: 3px;
 }
 .search {
-  display: inline-block;
-  position: relative;
-  bottom: 16px;
-  left: 85px;
+ display: inline-block;
+ position: relative;
+ bottom: 20px;
+ left: 120px;
+ height: 40px;
+ width: 485px;
 }
 .search input[type="search"] {
-  padding: 8px 30px 8px 325px;
+  padding: 0 24px 0 0;
+  height: 40px;
+  width: 460px;
   text-align: right;
   border-radius: 5px;
   background-color: #f6f3f3;
   border: 0;
   font-family: "IRANsans-Regular";
-  color: rgb(100, 98, 98);
   font-size: 18px;
+}
+::placeholder {
+  color: #948f8f;
 }
 .icon-search {
   display: inline-block;
   position: relative;
-  bottom: 14px;
-  left: 58px;
+  bottom: 18px;
+  left: 80px;
   font-size: 15px;
   cursor: pointer;
+  color: #948f8f;
 }
 .nav-select {
   display: inline-block;
   position: relative;
-  bottom: 17px;
-  left: 75px;
+  bottom: 20px;
+  left: 95px;
 }
 
 .nav-select select {
   width: 100px;
   transition: color 0.36s ease, background-color 0.36s ease;
-  padding: 7px 5px 7px 0px;
+  padding: 7px 8px 7px 0px;
   text-align: right;
   font-family: "IRANsans-Bold";
   border: 0;
@@ -188,9 +203,9 @@ a {
   font-size: 16px;
   color: #948f8f;
 }
-.nav-select select:hover {
-  color: black;
-  background-color: #f6f3f3;
+.nav-select select:hover{
+  color: black !important;
+  background-color: #f6f3f3 !important;
   border: 0;
 }
 .nav-select option {
@@ -208,18 +223,18 @@ a {
 .location {
   display: inline-block;
   position: relative;
-  bottom: 17px;
+  bottom: 20px;
   margin-left: 25px;
-  transition: color 0.36s ease, background-color 0.36s ease;
+  transition: color 0.36s ease,background-color 0.36s ease;
   cursor: pointer;
-  padding: 10px 20px;
+  padding: 8px 20px;
   border-radius: 5px;
-  left: 55px;
+  left: 75px;
   color: #948f8f !important;
 }
 .location:hover {
   color: black !important;
-  background-color: #f6f3f3;
+  background-color: #f6f3f3 !important;
   border: 0;
 }
 .t-lo {
@@ -242,8 +257,8 @@ a {
   display: inline-block;
   margin-left: 15px;
   position: relative;
-  top: 18px;
-  left: 45px;
+  top: 16px;
+  left: 70px;
   border-left: 1px solid rgb(230, 216, 216);
 }
 .icon-divar img {
@@ -254,52 +269,94 @@ a {
   bottom: 11px;
   cursor: pointer;
 }
-.H-footer {
-width: 252px;
-height: 500px;
-position: fixed !important;
-padding-top: 32px;
-top: 64px;
-right: 250px;
-border-bottom: 1px solid #d3cdcd;
-text-align: right;
-direction: rtl;
+
+.Section {
+  width: 245px;
+  height: 804px;
+  padding: 32px 14px 0 14px;
+  display: inline;
+  direction: rtl;
+  text-align: right;
+  float: right;
+  position: relative;
+  margin-right: 10px;
+  top: 80px;
 }
-footer {
-  display: inline-block;
-  
-}
-li {
-  list-style-type: none;
-}
+
 .category {
-  text-align: center;
-  font-size: .75rem;
-  font-weight: 400;
-  margin-bottom: 20px;
-  margin-top: 25px;
+  padding: 5px 0;
+  font-size: 0.75rem;
 }
-.category h2 {
-  position: relative;
-  left: 100px;
-}
-.side-list ul li a {
-  color:#9f9b9b !important;
-  transition: color 0.36s ease;
-  position: relative;
-  left: 38px;
-}
-.side-list ul li a:hover {
-  color: black !important;
+.side-list {
+  border-bottom: 1px solid rgb(234, 228, 228);
+  padding-bottom: 30px;
 }
 .side-list ul li {
-  padding: 8px 0;
-  font-family: "IRANsans-Regular";
-  font-size: 18px;
+  position: relative;
+  left: 30px;
+  padding-top: 18px;
+  font-weight: 400;
+  font-family: "IRANsans-Bold";
 }
+.side-list i {
+  position: relative;
+  left: 7.5px;
+}
+.side-list a {
+  color: #948f8f;
+  transition: color 0.36s ease;
+}
+.side-list a:hover {
+  color: black;
+}
+.Price {
+  border-bottom: 1px solid rgb(234, 228, 228);
+  direction: ltr;
+  padding: 6px 0;
+}
+.Price select {
+  border: 0;
+  padding: 8px;
+  font-family: "IRANsans-Regular";
+  color: rgb(48, 43, 43);
+  font-size: 15.5px;
+  font-weight: 600;
+  text-align: right;
+  cursor: pointer;
 
-
-
+}
+.Price option:nth-child(1),.Condition option:nth-child(1) {
+  background-color: black !important;
+  color: #ffff !important;
+}
+.Price option,.Condition option {
+  font-weight: 600;
+}
+#p-h {
+  font-size: 18px;
+  font-family: "IRANsans-Bold";
+  font-weight: 600;
+}
+.Condition {
+  border-bottom: 1px solid rgb(234, 228, 228);
+  direction: ltr;
+  padding: 6px 0;
+}
+.Condition select {
+  border: 0;
+  padding: 8px;
+  font-family: "IRANsans-Regular";
+  color: rgb(48, 43, 43) !important;
+  font-size: 15.5px;
+  font-weight: 600;
+  text-align: right;
+  cursor: pointer;
+}
+#Cdn {
+  font-size: 15px;
+  font-family: "IRANsans-Bold";
+  font-weight: 600;
+}
 
 
 
