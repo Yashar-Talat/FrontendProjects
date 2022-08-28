@@ -43,6 +43,7 @@ li {
   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 12%);
   background-color: #ffff;
   z-index: 1060;
+  top: 0;
 }
 
 .Btn-1 {
@@ -269,16 +270,30 @@ li {
 }
 
 .Section {
-  width: 260px;
-  height: 804px;
-  padding: 32px 14px 0 14px;
-  display: inline;
+  padding: 0px 14px 0 14px;
+  position: relative;
+  overflow: auto;
+  direction: rtl;
+  top: 120px;
+  right: 15px;
+}
+
+.s1 {
+  position: fixed;
+  width: 290px;
+  height: calc(110vh - 210px);
   direction: rtl;
   text-align: right;
-  float: right;
-  position: relative;
-  margin-right: 10px;
-  top: 65px;
+  overflow: auto;
+}
+.s1::-webkit-scrollbar {
+  display: none;
+}
+.s1::before,
+.s1::after {
+  content: " ";
+  display: block;
+  clear: both;
 }
 
 .category {
@@ -371,7 +386,7 @@ li {
 .access-divar {
   position: absolute;
   text-align: center;
-  right: 50px;
+  right: 30px;
   margin-top: 12px;
 }
 .access-divar a {
@@ -441,9 +456,124 @@ li {
   display: inline-block;
   position: relative;
   top: 110px;
+  left: 10px;
 }
 .enamad img {
   display: inline-block;
   width: 84px;
   height: 84px;
 }
+.main-content {
+  position: relative;
+  width: auto;
+  max-width: 1100px;
+  height: 4000px;
+  /* border: 1px solid red; */
+  margin-top: 100px;
+  margin-right: 300px;
+  min-height: 100px;
+  background-color: #fff;
+  top: 0;
+}
+.main-content .h-title {
+  text-align: left;
+  font-size: 20px;
+  font-family: "IRANsans-Regular";
+  font-weight: 600;
+  padding: 10px 0 5px 15px;
+  color: #948f8f;
+  border-bottom: 1px solid rgb(209, 203, 203);
+}
+.r-1,
+.r-2,
+.r-3,
+.r-4,
+.r-5,
+.r-6,
+.r-7,
+.r-8,
+.r-9,
+.r-10 {
+  border: 1px solid blue;
+  width: 99%;
+  height: auto;
+  margin-left: 5px;
+}
+.b-1 {
+  display: inline-block;
+  border: 1px solid red;
+  width: 345px;
+  height: 210px;
+  margin-top: 10px;
+  margin-left: 0px;
+  position: relative;
+}
+
+.b-2 {
+  display: inline-block;
+  border: 1px solid red;
+  width: 345px;
+  height: 210px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.b-3 {
+  display: inline-block;
+  border: 1px solid red;
+  width: 345px;
+  height: 210px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.head-title{
+text-align: right;
+padding: 5px 10px 0 0;
+color: black;
+font-size: 17px;
+position: relative;
+top: 8px;
+} 
+.info-p-1 , .info-p-2 , .info-p-3 {
+  text-align: right;
+  position: relative;
+  top: 30px;
+  right: 10px;
+  font-weight: 600;
+  color: #948f8f;
+}
+.icon-box {
+  position: relative;
+  right: 10px;
+  top: 25px;
+}
+.info-img {
+  position: relative;
+  right: 90px;
+  bottom: 115px;
+}
+.info-img img {
+  width: 136px;
+  height: 136px;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
