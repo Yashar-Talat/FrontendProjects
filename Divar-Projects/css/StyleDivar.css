@@ -468,7 +468,6 @@ li {
   width: auto;
   max-width: 1100px;
   height: 4000px;
-  /* border: 1px solid red; */
   margin-top: 100px;
   margin-right: 300px;
   min-height: 100px;
@@ -479,9 +478,9 @@ li {
   text-align: left;
   font-size: 20px;
   font-family: "IRANsans-Regular";
-  font-weight: 600;
+  font-weight: 500;
   padding: 10px 0 5px 15px;
-  color: #948f8f;
+  color: #3e3737;
   border-bottom: 1px solid rgb(209, 203, 203);
 }
 .r-1,
@@ -494,52 +493,40 @@ li {
 .r-8,
 .r-9,
 .r-10 {
-  border: 1px solid blue;
   width: 99%;
-  height: auto;
+  height: 180px;
   margin-left: 5px;
 }
-.b-1 {
+.b-1,
+.b-2,
+.b-3 {
   display: inline-block;
-  border: 1px solid red;
+  border: 1px solid rgb(209, 203, 203);
   width: 345px;
-  height: 210px;
+  height: 168px;
   margin-top: 10px;
   margin-left: 0px;
   position: relative;
+  border-radius: 5px;
 }
 
-.b-2 {
-  display: inline-block;
-  border: 1px solid red;
-  width: 345px;
-  height: 210px;
-  margin-top: 10px;
-  margin-left: 5px;
+.head-title {
+  text-align: right;
+  padding: 5px 10px 0 0;
+  color: black;
+  font-size: 17px;
+  position: relative;
+  top: 8px;
 }
-.b-3 {
-  display: inline-block;
-  border: 1px solid red;
-  width: 345px;
-  height: 210px;
-  margin-top: 10px;
-  margin-left: 5px;
-}
-.head-title{
-text-align: right;
-padding: 5px 10px 0 0;
-color: black;
-font-size: 17px;
-position: relative;
-top: 8px;
-} 
-.info-p-1 , .info-p-2 , .info-p-3 {
+.info-p-1,
+.info-p-2,
+.info-p-3 {
   text-align: right;
   position: relative;
   top: 30px;
   right: 10px;
   font-weight: 600;
-  color: #948f8f;
+  color: #3b3636;
 }
 .icon-box {
   position: relative;
@@ -556,24 +543,3 @@ top: 8px;
   height: 136px;
   background-size: cover;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
