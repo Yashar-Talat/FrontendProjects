@@ -1,6 +1,5 @@
 @import url(../fonts/fontawesome-pro-6.1.1-web/css/all.min.css);
 @import url(../fontawesome-free-6.1.2-web/css/all.min.css);
-/* @import url(../fontawesome-free-5.15.4-web/css/fontawesome.min.css); */
 
 @font-face {
   font-family: "IRANsans-Bold";
@@ -44,6 +43,9 @@ li {
   background-color: #ffff;
   z-index: 1060;
   top: 0;
+}
+.c-nav-all {
+  display: inline;
 }
 
 .Btn-1 {
@@ -251,8 +253,8 @@ li {
 }
 
 .icon-divar {
-  width: 48px;
-  height: 30px;
+  width: 67px;
+  height: 35px;
   display: inline-block;
   margin-left: 15px;
   position: relative;
@@ -534,6 +536,7 @@ li {
   top: 25px;
 }
 .info-img {
+  display: inline-block;
   position: relative;
   right: 90px;
   bottom: 115px;
@@ -542,4 +545,161 @@ li {
   width: 136px;
   height: 136px;
   background-size: cover;
+}
+.b-1 a {
+  display: inline-block;
+  width: 340px;
+  height: 170px;
+}
+@media (max-width: 1360px) {
+  .Top-nav {
+    height: 68px;
+  }
+  .nav-bar {
+    position: relative;
+    left: 50px;
+    top: 10px;
+  }
+
+  .search input[type="search"] {
+    width: 220px;
+    position: relative;
+    top: 10px;
+    right: 285px;
+  }
+  .icon-search i {
+    position: relative;
+    top: 10px;
+    right: 405px;
+  }
+  .nav-select select {
+    position: relative;
+    top: 10px;
+    right: 400px;
+  }
+  .location .t-lo,
+  .i-lo {
+    position: relative;
+    top: 10px;
+    right: 400px;
+  }
+  .icon-divar {
+    border: 0;
+  }
+  .icon-divar img {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    position: relative;
+    right: 410px;
+    bottom: 6px;
+  }
+
+  .r-1,
+  .r-2,
+  .r-3,
+  .r-4,
+  .r-5,
+  .r-6,
+  .r-7,
+  .r-8,
+  .r-9,
+  .r-10 {
+    height: 350px;
+    width: 700px;
+  }
+
+  .b-3 {
+    position: relative;
+    bottom: 110px;
+    right: 175px;
+  }
+  .b-2,
+  .b-1 {
+    position: relative;
+    left: 0px;
+  }
+  .r-2,
+  .r-3,
+  .r-4,
+  .r-5,
+  .r-6,
+  .r-7,
+  .r-8,
+  .r-9,
+  .r-10 {
+    position: relative;
+    top: 0;
+    bottom: 650px;
+  }
+  .r-2 .b-2 {
+    bottom: 175px;
+  }
+  .r-3 .b-2 {
+    bottom: 350px;
+  }
+  .r-4 .b-2 {
+    bottom: 525px;
+  }
+  .r-5 .b-2 {
+    bottom: 700px;
+  }
+  .r-6 .b-2 {
+    bottom: 875px;
+  }
+  .r-7 .b-2 {
+    bottom: 1050px;
+  }
+  .r-8 .b-2 {
+    bottom: 1225px;
+  }
+  .r-9 .b-2 {
+    bottom: 1400px;
+  }
+  .r-10 .b-2 {
+    bottom: 1575px;
+  }
+  .r-6 .b-3 {
+    left: 175px;
+    bottom: 285px;
+  }
+  .r-7 .b-1,
+  .r-8 .b-1 {
+    bottom: 175px;
+  }
+  .r-7 .b-3,
+  .r-8 .b-3 {
+    bottom: 285px;
+  }
+
+  .r-9 .b-1,
+  .r-10 .b-1 {
+    left: 350px;
+    bottom: 875px;
+  }
+  .r-9 .b-3,
+  .r-10 .b-3 {
+    left: 175px;
+    bottom: 985px;
+  }
+}
+@media (max-width: 1205px) {
+  .c-nav-all {
+    float: right;
+    position: relative;
+    left: 250px;
+    bottom: 60px;
+  }
+  .icon-divar {
+    width: 50px;
+    height: 50px;
+    position: relative;
+  }
+  .icon-divar img {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    position: relative;
+    right: 400px;
+  }
 }
