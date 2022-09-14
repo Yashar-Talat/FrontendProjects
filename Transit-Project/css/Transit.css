@@ -1,4 +1,5 @@
-@import url(font-awesome.min.css);
+@import url(../IconFiles/fontawesome-pro-6.1.1-web/css/all.min.css);
+
 @font-face {
   font-family: "Raleway";
   src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
@@ -127,7 +128,6 @@ a {
 }
 
 .icon::before {
-  font-family: "FontAwsome";
   font-style: normal;
 }
 
@@ -161,6 +161,8 @@ a {
   width: calc(calc(100% / 3) - 82px);
   border: 1px solid rgba(144, 144, 144, 0.25);
   margin: 0 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px #858585;
 }
 
 .services-content::after,
@@ -247,8 +249,8 @@ a {
   margin-bottom: 40px;
 }
 .about-footer button:hover {
-  color: blue !important;
-  background-color: black;
+  color: #ffffff !important;
+  background-color: red !important;
 }
 
 .contact {
